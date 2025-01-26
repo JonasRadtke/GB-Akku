@@ -1,0 +1,8 @@
+*backups/
+jlcpcb/
+fp-info-cache
+*.xml
+*.log
+*.step
+*.x3d
+~*
