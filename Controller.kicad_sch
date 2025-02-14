@@ -1442,6 +1442,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 93.98) (xy 128.27 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49844901-7dd3-4e64-8ced-b272f2556ab7")
+	)
+	(wire
+		(pts
 			(xy 168.91 110.49) (xy 200.66 110.49)
 		)
 		(stroke
@@ -1539,6 +1549,16 @@
 			(type default)
 		)
 		(uuid "9fcda571-f72b-40ab-b1d9-b5c1d90fdfaf")
+	)
+	(wire
+		(pts
+			(xy 128.27 90.17) (xy 138.43 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "affa91e9-9f49-45c9-b08b-627eb1b1d50e")
 	)
 	(wire
 		(pts
@@ -2106,6 +2126,72 @@
 			(project "USB_Charger_SingleCell"
 				(path "/96a2a085-c45a-45d4-9520-54520435e69e/e729a720-b9c5-4b33-b910-0590e6266ce9"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d3a155d-9cf2-418f-ac2e-e50c03af95f3")
+		(property "Reference" "#PWR041"
+			(at 128.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15658a55-2c99-4279-b591-8c079d36cdff")
+		)
+		(instances
+			(project "GB-Akku"
+				(path "/96a2a085-c45a-45d4-9520-54520435e69e/e729a720-b9c5-4b33-b910-0590e6266ce9"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
